@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Google Colab artifacts
+*.log
+
+# HuggingFace cache 
+.cache/
+huggingface/
+~/.cache/huggingface/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files 
+*.bin
+*.pt
+*.safetensors
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Notebook checkpoint metadata issues
+*.ipynb_checkpoints

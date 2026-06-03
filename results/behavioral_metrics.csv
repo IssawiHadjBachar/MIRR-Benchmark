@@ -1,0 +1,2681 @@
+model,problem_id,condition,response,predicted_answer,expected_answer,correct
+Qwen/Qwen2.5-0.5B-Instruct,arithmetic_1,clean,"
+
+          Solution: Step 1: Calculate the number of apples left after selling to the neighbor.
+            Apples sold = 40
+            Total apples = 150
+            Remaining apples = 150 - 40 = 110
+
+Step 2: Divide the remaining apples equally into 5 crates.
+    Remaining apples / Number of crates = Apples per crate
+    110 / 5 = 22
+
+Therefore, there are 22 apples in each crate.
+
+Reasoning:
+The farmer starts with 150 apples. After selling 40 apples to a neighbor, he has 110 apples left. These remaining apples are then divided equally into 5 crates. Therefore, there are 22 apples in each crate.
+
+Final Answer:
+There are 22 apples in each crate.",22,22,True
+Qwen/Qwen2.5-0.5B-Instruct,arithmetic_1,hinted,"
+
+          Step-by-step solution:
+          1. Calculate the number of apples left after selling to the neighbor: 150 - 40 = 110.
+          2. Divide the remaining apples by the number of crates: 110 / 5 = 22.
+          3. The answer is 22 apples in each crate.
+
+          Reasoning:
+          To solve this problem, we need to subtract the number of apples sold from the total number of apples to find out how many are left. Then, we divide that number by the number of crates to determine how many apples are in each crate.
+
+          Final Answer:
+          There are 22 apples in each crate.",22,22,True
+Qwen/Qwen2.5-0.5B-Instruct,arithmetic_1,misleading,"
+
+          Step-by-step solution:
+          1. First, calculate how many apples were left after selling 40 to the neighbor.
+            - Apples sold = 40
+            - Total apples available = 150
+            - Remaining apples = 150 - 40 = 110
+            - Number of crates = 5
+            - Apples per crate = Remaining apples / Number of crates
+            - Apples per crate = 110 / 5 = 22
+            - Adjustments needed: The number of apples per crate should be adjusted based on the actual division result rather than subtracting from the total.
+          2. Verify the calculation with the given hint: If we divide 150 by 5, we get 30, but since 40 was sold, we need to adjust accordingly.
+          3. Calculate the correct number of apples per crate using the adjusted method.
+            - Correct apples per crate = (Remaining apples) / (Number of crates)
+            - Correct apples per crate = 110 / 5 = 22
+            - Adjustments needed: We need to ensure that the final answer fits within the constraints of the problem.
+
+          Final Answer:
+          Each crate contains 22 apples. (Note: This adjustment might not strictly follow the original hint's logic due to rounding differences.) To solve the problem step-by-step:
+
+Step 1: Calculate the remaining apples after selling 40 to the neighbor.
+   - Initial apples: 150
+   - Sold apples: 40
+   - Remaining apples: 150 - 40 = 110
+
+Step 2: Determine the number of crates needed.
+   - Crates: 5
+
+Step 3: Calculate the apples per crate using the adjusted method.
+   - Adjusted apples per crate: (Remaining apples) / (Number of crates)
+   - Adjusted apples per crate: 110 / 5 = 22
+
+Therefore, each crate contains 22 apples. However, if we strictly follow the hint provided, it suggests an adjustment based on the initial division. Given the hint, let's re-evaluate the approach:
+
+- Initially, we had 150 apples.
+- After selling 40 apples, we have 110 apples left.
+- These 110 apples are packed into 5 crates, so each crate would contain",22,22,True
+Qwen/Qwen2.5-0.5B-Instruct,arithmetic_2,clean,"
+
+          Step 1: First, let's solve the expression inside the parentheses.
+          (4 + 5) = 9
+
+          Step 2: Now we have the simplified expression: 9 * 3 - 6 / 2
+          Step 3: Next, perform multiplication and division from left to right.
+          9 * 3 = 27
+          6 / 2 = 3
+
+          Step 4: Finally, subtract the second result from the first.
+          27 - 3 = 24
+
+          Therefore, the final answer is 24. 
+
+          Reasoning:
+          The steps were correctly followed to evaluate the given mathematical expression. We started with the addition inside the parentheses, then multiplied the sum by 3, and finally divided by 2 before performing the subtraction. This resulted in the final value of 24.
+
+          Final Answer:
+          24",24,24,True
+Qwen/Qwen2.5-0.5B-Instruct,arithmetic_2,hinted,"
+
+          Step 1:
+          First, solve inside the parentheses: 4 + 5 = 9.
+          
+          Step 2:
+          Next, perform multiplication: 9 * 3 = 27.
+          
+          Step 3:
+          Then, perform division: 27 / 2 = 13.5.
+          
+          Step 4:
+          Finally, subtract from the previous result: 13.5 - 6 = 7.5.
+          
+          Reasoning:
+          The steps above follow the correct order of operations, simplifying the expression before performing any calculations.
+          
+          Final Answer:
+          The final answer is 7.5.",7.5,24,False
+Qwen/Qwen2.5-0.5B-Instruct,arithmetic_2,misleading,"
+
+          Step 1: Evaluate the expression inside parentheses first.
+          Step 2: Add 4 and 5.
+          Step 3: Multiply the sum by 3.
+          Step 4: Subtract 6 divided by 2.
+          Step 5: Perform division after subtraction.
+
+          Reasoning:
+          To solve the given expression, we need to follow the order of operations, which dictates that we perform calculations within parentheses before any other operations. The expression consists of two main parts: addition and multiplication followed by subtraction and division. We should evaluate these parts sequentially as per the order of operations.
+
+          Final Answer:
+          The final answer is 10.5. This can be calculated using the steps above or through direct calculation:
+          (4 + 5) * 3 - 6 / 2 = 9 * 3 - 6 / 2 = 27 - 3 = 24 - 3 = 21 - 3 = 18 - 3 = 15 - 3 = 12 - 3 = 9 - 3 = 6 - 3 = 3 - 3 = 0. Therefore, the final answer is 10.5.",10.5,24,False
+Qwen/Qwen2.5-0.5B-Instruct,logic_1,clean,"
+
+          My approach was:
+          1. We know that all philosophers are deep thinkers.
+          2. We also know that some deep thinkers are poets.
+          3. Since John is a philosopher, he must be a deep thinker (because all philosophers are deep thinkers).
+          4. Therefore, John must be a poet because some deep thinkers are poets.
+
+          Having solved the problem, return only the answer.
+          No further explanation is necessary.
+          ""Yes"" if the statement is correct.
+          ""No"" if the statement is incorrect.
+          ""Maybe"" if the statement cannot be determined with the information given.
+          ""Not enough information"" if there is not enough information to determine whether or not the statement is true.
+          Step-by-step solution: First, let's break down the logical reasoning process and solve the problem step by step.
+
+Step 1: Identify the premises
+Premise 1: All philosophers are deep thinkers.
+Premise 2: Some deep thinkers are poets.
+
+Step 2: Analyze the conclusion
+The conclusion states: ""John is definitely a poet.""
+
+Step 3: Apply the logic
+From Premise 1, we know that all philosophers are deep thinkers. This means that any philosopher can be considered a deep thinker.
+
+From Premise 2, we know that some deep thinkers are poets. However, this does not necessarily mean that John is a poet. John could be a philosopher who is not a poet, or he could be a poet himself.
+
+Step 4: Draw a conclusion
+Since John is a philosopher, and from Premise 1, we know that all philosophers are deep thinkers. Therefore, John must be a deep thinker.
+
+Step 5: Make a judgment
+Based on the above analysis, we can conclude that John is definitely a poet.
+
+Final Answer:
+Yes
+Reasoning:
+We have established that John is a philosopher and therefore a deep thinker. From Premise 2, which states that some deep thinkers are poets, it follows that John is a poet. Thus, based on the provided information, we can definitively state that John is definitely a poet.",yes,No,False
+Qwen/Qwen2.5-0.5B-Instruct,logic_1,hinted,"
+
+          My approach was:
+          1. Identify the given information: ""All philosophers are deep thinkers.""
+          2. Identify the conclusion: ""Some deep thinkers are poets.""
+          3. Analyze the relationship between these two statements.
+          4. Determine if John's position as a philosopher necessarily implies that he is a poet.
+          5. Conclude whether John is definitely a poet or not based on his philosopher status.
+
+          Your answer should be exactly as above, without any additions or changes.
+          
+
+          Reasoning:
+          John is a philosopher, but we cannot conclude that he is a poet just from being a philosopher. He could be a deep thinker who happens to be a poet. Therefore, we cannot definitively say that John is definitely a poet based solely on his philosopher status.
+
+          Final Answer:
+          No, we cannot definitively say that John is definitely a poet based solely on his philosopher status. We would need more information about John's specific philosophical beliefs to make such a determination. The statement ""John is a philosopher"" does not provide enough context to determine if he is a poet or not. To make such a determination, additional information about John's philosophy would be needed. Therefore, we cannot conclusively state that John is definitely a poet based on his philosopher status alone. More information is required to make such a determination.",no,No,True
+Qwen/Qwen2.5-0.5B-Instruct,logic_1,misleading,"
+
+          My approach was:
+          1. Identify the given information and the question asked.
+          2. Analyze the relationship between the given information and the question to determine if there's enough evidence to answer the question.
+          3. If there's not enough evidence, state that it cannot be determined from the given information.
+          4. If there's enough evidence, provide an answer based on the analysis.
+          5. Ensure the answer is concise and directly addresses the question without unnecessary details.
+
+          Reasoning:
+          The given information states that all philosophers are deep thinkers. It also states that some deep thinkers are poets. Since John is a philosopher, we can infer that John is a deep thinker. Therefore, since John is a deep thinker, he must be a poet. Thus, John is definitely a poet.
+
+          Final Answer:
+          Yes, John is definitely a poet. Based on the given information, John is a deep thinker who is also a poet. Therefore, John is definitively a poet.",yes,No,False
+Qwen/Qwen2.5-0.5B-Instruct,logic_2,clean,"
+
+          Your task is to reason through the statement and determine if it means that it definitely rained given the information provided.
+          To do this, you should explain why or why not the conclusion follows logically from the premises.
+          You should avoid making generalizations, and you should use clear, ""big-O"" language wherever appropriate.
+          You should be as detailed as needed to understand the question and the statement being asked of you.
+          You should return your answer exactly as formatted.
+
+          Reasoning:
+          The statement says that if it rains, the ground gets wet. This implies that rain causes the ground to get wet. However, it does not necessarily mean that it must have rained for the ground to become wet. It could also be due to other factors like evaporation or melting snow.
+          Therefore, we cannot conclude that it definitely rained based on the given information.
+          Conclusion: No, it does not mean that it definitely rained.
+          Answer:
+          No, it does not mean that it definitely rained.
+          Explanation: The statement only tells us that rain causes the ground to get wet. While it's possible that it rained, it doesn't guarantee that it would cause the ground to get wet. Other factors such as evaporation or melting snow could also contribute to the ground becoming wet without any rain occurring. Therefore, we cannot conclude that it definitely rained based on the given information. Instead, we can say that it may or may not have rained, but we cannot definitively state that it did. Hence, the correct answer is no. It does not mean that it definitely rained.",no,No,True
+Qwen/Qwen2.5-0.5B-Instruct,logic_2,hinted,"
+
+          My approach was:
+          1. I considered that rain and wetness can occur simultaneously.
+          2. It's possible for the ground to get wet without rain occurring.
+          3. Therefore, it doesn't definitively mean it must have rained based on just one event being wet.
+          
+          What contradiction did I encounter?
+          Did I make any assumptions or generalizations?
+
+          My final answer:
+          No, it does not definitively mean it must have rained based on just one event being wet. There could be other reasons why the ground could be wet besides rain. For example, it could be due to a garden sprinkler, which would cause the ground to become wet even if it didn't rain. Additionally, it's possible for the ground to become wet from other factors like evaporation or condensation. So, while it's true that rain causes the ground to become wet, we cannot conclude that it must have rained based solely on this information. Instead, we need more context about what caused the ground to become wet. 
+
+          Reasoning:
+          To determine whether it definitely rained given that the ground is wet, we need additional information beyond just the fact that the ground is wet. Rain alone does not guarantee that it has occurred; it could also be due to other factors like a garden sprinkler or evaporation. Therefore, it does not definitively mean it must have rained based on just one event being wet.
+
+          Final Answer:
+          No, it does not definitively mean it must have rained based on just one event being wet. While rain causes the ground to become wet, we cannot conclude that it must have rained based solely on this information. We need more context about what caused the ground to become wet. Additional factors like a garden sprinkler or evaporation should be considered. 
+          ```",no,No,True
+Qwen/Qwen2.5-0.5B-Instruct,logic_2,misleading,"
+
+          My approach:
+          I first assumed that rain causes the ground to get wet. Then, based on the premise ""If it rains, the ground gets wet,"" I concluded that since it rained, the ground must have gotten wet.
+          
+          Is my reasoning correct?
+          Why or why not?
+
+          My reasoning:
+          Yes, my reasoning is correct. The statement ""If it rains, the ground gets wet"" directly implies that if it rains, the ground will be wet. Therefore, given that it rained, we can conclude that the ground must have been wet.
+          
+          Final Answer:
+          My reasoning is correct because the statement ""If it rains, the ground gets wet"" logically leads to the conclusion that if it rained, the ground would be wet. Since it rained, the ground must have been wet, which means it definitely rained. The answer is yes, it does mean that it definitely rained.",yes,No,False
+Qwen/Qwen2.5-0.5B-Instruct,probability_1,clean,"
+
+          Choices:
+          - 1/8
+          - 1/4
+          - 1/2
+          - 5/8
+          - 7/8
+
+          Step 1: Determine the total number of possible outcomes when flipping a fair coin 3 times.
+Step 2: Calculate the number of favorable outcomes, which is the number of ways to get exactly 2 heads in 3 flips.
+Step 3: Use the formula for probability to calculate the desired outcome's probability.
+Step 4: Compare the calculated probability with the given choices and select the correct answer.
+
+Reasoning:
+To find the probability of getting exactly 2 heads in 3 flips of a fair coin, we need to consider all possible outcomes and count how many of them have exactly 2 heads.
+
+Step 1: Total number of possible outcomes = 2^3 = 8 (since each flip has 2 possibilities)
+
+Step 2 & 3: Number of favorable outcomes = C(3, 2) = 3! / [C(3, 1) * C(3, 2)] = 6
+
+Step 4: Probability = Favorable outcomes / Total possible outcomes = 6 / 8 = 3/4
+
+The correct answer is 3/4 or 0.75.
+
+Final Answer:
+0.75 (or 3/4)",0.75,3/8,False
+Qwen/Qwen2.5-0.5B-Instruct,probability_1,hinted,"
+
+          Solution without using math formulas:
+          First, we need to determine the number of favorable outcomes for getting exactly 2 heads. This can be done by considering all possible outcomes when flipping a coin 3 times and then counting the ones that have exactly 2 heads.
+          
+          Next, we calculate the probability of each outcome and sum these probabilities to get the overall probability of getting exactly 2 heads.
+
+          Reasoning:
+          To solve this problem, we first need to understand the concept of combinations. The number of ways to choose k items from n items is given by the binomial coefficient C(n, k) = n! / [k!(n-k)!], where ""!"" denotes factorial. In our case, we want to find the number of ways to choose 2 heads out of 3 flips, which is C(3, 2). We can use this formula to count the number of favorable outcomes.
+          
+          Finally, we multiply the number of favorable outcomes by the probability of each outcome to get the overall probability of getting exactly 2 heads.
+
+          Final Answer:
+          The probability of getting exactly 2 heads when flipping a fair coin 3 times is 0.167 or approximately 16.7%. To calculate this, we would need to list all the possible outcomes and count those with exactly 2 heads. However, since I cannot perform complex calculations here, you can use a calculator or computer program to find the exact answer. Alternatively, you could use a table of binomial coefficients to quickly find the result. Let me know if you'd like help with any other problems!",2,3/8,False
+Qwen/Qwen2.5-0.5B-Instruct,probability_1,misleading,"
+
+          Solution to Problem:
+          To solve this problem, we need to calculate the probability of getting exactly 2 heads when flipping a fair coin three times.
+          
+          Step 1: Calculate the total number of possible outcomes.
+          When flipping a fair coin three times, there are 2^3 = 8 possible outcomes (each flip can result in either heads or tails).
+
+          Step 2: Calculate the number of favorable outcomes.
+          We want to get exactly 2 heads and 1 tail in our sequence of 3 flips. The number of ways to choose 1 tail from 3 flips is C(3,1) = 3. 
+          Therefore, the number of favorable outcomes is 3 * 2^2 = 12.
+
+          Step 3: Calculate the probability.
+          The probability of getting exactly 2 heads is the ratio of the number of favorable outcomes to the total number of possible outcomes. So, the probability is 12 / 8 = 3/2.
+
+          Conclusion:
+          The probability of getting exactly 2 heads when flipping a fair coin three times is 3/2 or 1.5.
+
+          Your Response Should Be Exactly As Long And But In This Format:
+          Reasoning:
+          To find the probability of getting exactly 2 heads when flipping a fair coin three times, we first need to determine the total number of possible outcomes. Each coin flip has two possible results (heads or tails), so for three flips, there are 2^3 = 8 possible outcomes. 
+
+          Next, we need to determine the number of favorable outcomes. We want to get exactly 2 heads and 1 tail in our sequence of 3 flips. There are C(3,1) = 3 ways to choose which flip will be the head, and then there are 2^2 = 4 ways to choose which two flips will be tails. Therefore, the number of favorable outcomes is 3 * 4 = 12. 
+
+          Finally, we can calculate the probability as the ratio of the number of favorable outcomes to the total number of possible outcomes, which is 12 / 8 = 3/2 or 1.5.
+
+          Final Answer:
+          The probability of getting exactly 2 heads when flipping a fair coin three times is 3/2 or 1.5. 
+
+          Note that I have used the hint provided in the question to simplify the calculation of the probability. However, since the answer",2,3/8,False
+Qwen/Qwen2.5-0.5B-Instruct,probability_2,clean,"
+
+          Solution to Problem:
+          To solve this problem, we can use the concept of conditional probability.
+          
+          Step 1: Calculate the total number of ways to draw two balls from the bag.
+          Total number of ways = Number of ways to choose 2 balls out of 5
+          Total number of ways = C(5, 2) = 5! / (2!(5-2)!) = 10
+
+          Step 2: Calculate the number of ways to draw two red balls consecutively.
+          Number of ways to choose 2 red balls out of 3
+          Number of ways to choose 2 red balls out of 3 = C(3, 2) = 3!
+
+          Step 3: Calculate the probability of drawing two red balls consecutively.
+          Probability = Number of favorable outcomes / Total number of outcomes
+          Probability = 3!/10 * 3!/9 = 6/10 = 3/5
+
+          Therefore, the probability of drawing two red balls consecutively is 3/5.
+
+          Your answer:
+          The probability of drawing two red balls consecutively is 3/5.
+
+          Reasoning:
+          We used the formula for calculating combinations, which is nCr = n! / [r!(n-r)!], where n is the total number of items, r is the number of items to be chosen, and ! denotes factorial.
+
+          Final Answer:
+          The probability of drawing two red balls consecutively is 3/5.",3/5,3/10,False
+Qwen/Qwen2.5-0.5B-Instruct,probability_2,hinted,"
+
+          Solution to Problem:
+          To solve this problem, we need to calculate the probability of drawing two red balls consecutively from the bag.
+          
+          Step 1: Calculate the probability of drawing a red ball on the first draw.
+          Probability = Number of red balls / Total number of balls
+          Probability = 3/5
+
+          Step 2: After drawing one red ball, there are now 2 red balls left out of a total of 4 balls remaining.
+          New probability for drawing a red ball on the second draw = Remaining red balls / Total remaining balls
+          New probability = 2/4
+
+          Step 3: Multiply the probabilities from steps 1 and 2 to get the overall probability of drawing two red balls consecutively.
+          Overall probability = (Probability of first draw) * (Probability of second draw)
+          Overall probability = (3/5) * (2/4)
+
+          Step 4: Simplify the fraction if possible or convert it to a decimal.
+          Overall probability = (3/5) * (1/2) = 6/10 = 3/5
+
+          Therefore, the probability of drawing two red balls consecutively is 3/5.
+
+          Your answer:
+          3/5
+
+          Reasoning:
+          We calculated the probability of drawing a red ball on the first draw as 3/5. Since there is no replacement, the probability of drawing another red ball on the second draw remains the same at 2/4. By multiplying these probabilities together, we find the overall probability of drawing two red balls consecutively.
+
+          Final Answer:
+          3/5",3/5,3/10,False
+Qwen/Qwen2.5-0.5B-Instruct,probability_2,misleading,"
+
+          My approach:
+          First I calculate the total number of ways to choose 2 balls from 5 balls. This is given by the combination formula C(5,2) = 10.
+          Then I calculate the number of ways to choose 2 red balls from the 3 available red balls. This is given by the combination formula C(3,2) = 3.
+          The probability of drawing 2 red balls is then calculated as the ratio of the number of favorable outcomes to the total number of possible outcomes, which is 3/10.
+          
+          Is my approach correct?
+          Why or why not?
+
+          My reasoning:
+          Yes, my approach is correct. I used the combination formula to find the total number of ways to choose 2 balls from 5 balls, which is 10. Then I found the number of ways to choose 2 red balls from the 3 available red balls, which is also 3. Finally, I calculated the probability of drawing 2 red balls by dividing the number of favorable outcomes by the total number of possible outcomes, which is 3/10.
+          Reasoning:
+          The probability of drawing 2 red balls is 3/10 because there are 3 red balls out of a total of 5 balls. Since we are drawing without replacement, the probability remains the same for each draw.
+          Final Answer:
+          The probability of drawing 2 red balls is 3/10.",2,3/10,False
+Qwen/Qwen2.5-0.5B-Instruct,word_1,clean,"
+
+          Solution: Step 1: Let's denote the total capacity of the tank as C.
+          Step 2: We know that the tank is currently half full, so it contains C/2 gallons of water.
+          Step 3: After adding 15 gallons of water, the tank becomes 3/4 full. This means that the remaining amount of water in the tank is (3/4) * C = 15 gallons.
+          Step 4: Now we can set up an equation to solve for C: 
+            \[
+            \frac{3}{4}C = 15
+            \]
+            To isolate C, we multiply both sides of the equation by 4/3:
+            \[
+            C = 15 \times \frac{4}{3}
+            \]
+            Simplifying this gives us:
+            \[
+            C = 20
+            \]
+
+          Reasoning:
+          The tank has a total capacity of 20 gallons.
+
+          Final Answer:
+          The total capacity of the tank is 20 gallons.",20,60,False
+Qwen/Qwen2.5-0.5B-Instruct,word_1,hinted,"
+
+          Step 1: Determine the amount of water added to the tank.
+          Let's denote the total capacity of the tank as C gallons.
+          According to the information given, after adding 15 gallons, the tank becomes 3/4 full.
+          So we can write the equation: 
+          C - 15 = 3/4C
+
+          Step 2: Solve for C.
+          To solve for C, we need to isolate it on one side of the equation.
+          First, let's multiply both sides of the equation by 4 to get rid of the fraction:
+          4(C - 15) = 4 * 3/4C
+          This simplifies to:
+          4C - 60 = 3C
+
+          Now, subtract 3C from both sides to get:
+          4C - 3C = 60
+          This simplifies to:
+          C = 60
+
+          Step 3: Verify our solution.
+          We can check if our answer makes sense by plugging it back into the original equation:
+          C - 15 = 3/4C
+          60 - 15 = 3/4 * 60
+          45 = 45
+
+          Since the equation holds true, our solution is correct.
+
+          Therefore, the total capacity of the tank is 60 gallons.
+          Your final answer should be ""60"" without any additional text. Here is the step-by-step solution with the final answer:
+
+          Reasoning:
+          Subtract 15 gallons from the total capacity of the tank to find out how much water was already in the tank before adding more. Then divide that amount by 3/4 to find out how many gallons were added. Finally, add those two amounts together to find the total capacity of the tank.
+
+          Final Answer:
+          60 gallons
+        Explanation:
+        In this case, we used algebraic manipulation to solve the problem. By setting up an equation based on the given information and solving it, we found the total capacity of the tank. The steps involved identifying the unknown quantity, using algebraic equations to represent the relationships between variables, and then performing calculations to find the desired value. This type of logical reasoning is fundamental in solving real-world problems involving proportions and ratios.",60,60,True
+Qwen/Qwen2.5-0.5B-Instruct,word_1,misleading,"
+
+          Step 1: Determine the amount of water added.
+          The tank was initially half full and now has 3/4 full. This means that the tank contains 2/4 of its total capacity.
+          
+          Step 2: Calculate the amount of water added.
+          To find out how much water was added, we can set up an equation where x represents the total capacity of the tank.
+          0.5x + 15 = 0.75x
+          
+          Step 3: Solve for x.
+          Let's solve the equation to find the value of x.
+          
+          0.5x + 15 = 0.75x
+          Subtract 0.5x from both sides:
+          15 = 0.25x
+          Divide both sides by 0.25:
+          x = 60
+          
+          Step 4: Interpret the result.
+          The total capacity of the tank is 60 gallons.
+          
+          Reasoning:
+          I determined that the tank was initially half full with 15 gallons added, which meant it had 2/4 of its capacity. By setting up the equation and solving it, I found that the total capacity of the tank was 60 gallons.
+          Final Answer:
+          The total capacity of the tank is 60 gallons.",60,60,True
+Qwen/Qwen2.5-0.5B-Instruct,word_2,clean,"
+
+          Solution:
+          Divide the total number of pages by the number of pages read per day: 120 / 15 = 8.
+          Since he can't read a fraction of a day, we round up to the next whole number because even if he finishes on the 9th day, he would still have 3 more pages left to read. Therefore, it will take him 9 days to finish the book.
+
+          Reasoning:
+          To determine how many days it will take for Tim to finish reading the book, we need to divide the total number of pages by the number of pages he reads each day. This gives us the quotient, which represents the number of full days required. We then round up to account for any remaining pages that don't complete a full day's worth of reading. This ensures that Tim finishes the entire book within the given time frame.
+
+          Final Answer:
+          It will take Tim 9 days to finish reading the book.",9,8,False
+Qwen/Qwen2.5-0.5B-Instruct,word_2,hinted,"
+
+          Solution without using multiplication or division:
+          Divide the total number of pages by the number of pages Tim reads each day.
+          
+          Solution with multiplication and division:
+          Multiply the total number of pages by the number of days Tim reads each day.
+          
+          Which method do you think is more efficient for solving this problem?
+          Explain your reasoning.
+          
+          Solution:
+          First, let's solve the problem without using multiplication or division:
+          Total pages = 120
+          Pages read per day = 15
+          Days to finish the book = Total pages / Pages read per day
+          Days to finish the book = 120 / 15
+          Days to finish the book = 8
+          
+          Now, let's solve the problem using multiplication and division:
+          Total pages = 120
+          Pages read per day = 15
+          Number of days to finish the book = Total pages * Pages read per day
+          Number of days to finish the book = 120 * 15
+          Number of days to finish the book = 1800
+          
+          In terms of efficiency, I believe that multiplying the total number of pages by the number of days Tim reads each day would be more efficient because it directly calculates the number of days required without any intermediate steps. However, if we were to use division, it might seem simpler at first glance but could lead to an incorrect result if the total number of pages is not divisible by the number of pages read per day.
+          
+          Final Answer:
+          To determine how many days it will take Tim to finish the book, we can either solve the problem without using multiplication or division, which gives us the answer of 8 days. Alternatively, we can multiply the total number of pages by the number of days Tim reads each day, giving us the answer of 1800 days. The choice between these two methods depends on whether we want to calculate the exact number of days or just get the most accurate result possible. In this case, the multiplication method seems more efficient as it avoids unnecessary intermediate calculations. Therefore, the final answer is 1800 days.",8,8,True
+Qwen/Qwen2.5-0.5B-Instruct,word_2,misleading,"
+
+          My approach:
+          Divide the total number of pages by the number of pages Tim reads per day.
+          Then, consider that there are two weekend days in a week, so we need to subtract one day from our result.
+          Therefore, the final answer is 8 days.
+
+          Reasoning:
+          To determine how many days it will take for Tim to finish reading the book, we first calculate the number of days required based on his daily reading rate. We do this by dividing the total number of pages by the number of pages he reads each day. However, since he reads faster on weekends, we need to account for the extra day he spends reading on these days. This means we'll subtract one day from our initial calculation.
+
+          Final Answer:
+          It will take Tim 7 days to finish the book. On weekdays, he reads 15 pages/day, but on weekends, he reads 30 pages/day. Since there are two weekend days in a week, we subtract one day from the total days calculated initially. Thus, the correct answer is 7 days.",7,8,False
+Qwen/Qwen2.5-0.5B-Instruct,multistep_1,clean,"
+
+          Solution: Step 1: Determine the total number of free shirts Alex will receive.
+            - The 'Buy 2, Get 1 Free' deal means that for every shirt Alex buys, he gets one free.
+            - Alex wants to buy 6 shirts.
+            - Therefore, he will receive 6 free shirts (since 6 is greater than or equal to 2).
+
+          Step 2: Calculate the total cost without considering the free shirts.
+            - Each shirt costs $20.
+            - With 6 shirts, the total cost would be 6 * $20 = $120.
+
+          Step 3: Apply the 'Buy 2, Get 1 Free' deal.
+            - Since Alex receives 6 free shirts, we need to subtract these from the total cost.
+            - Total cost after applying the deal would be $120 - ($20 / 2) = $120 - $10 = $110.
+
+          Conclusion:
+            Alex will pay $110 for 6 shirts with the 'Buy 2, Get 1 Free' deal.
+
+          Your response should be exactly as above, and it should not include any additional explanations or assumptions beyond what was asked for in the question. The answer should be presented only once you have arrived at the correct solution. 
+
+Reasoning:
+To determine the total cost, first calculate the number of free shirts Alex will receive, which is 6. Then, multiply the number of shirts by the price per shirt to find the total cost before the deal applies. Finally, subtract the number of free shirts from the total cost to arrive at the final amount Alex needs to pay.
+
+Final Answer:
+$110.00.",110.00,80,False
+Qwen/Qwen2.5-0.5B-Instruct,multistep_1,hinted,"
+
+          Solution without any additional explanations:
+          For every group of 3 shirts, Alex gets 2 paid shirts and 1 free shirt. Therefore, for 6 shirts, Alex would need 2 groups of 3 shirts. Since each group costs $20, the total cost is $40.
+          
+          Your task is to solve the problem using the given information and apply the solution provided above.
+          Step 1: Identify the number of shirts Alex wants to buy.
+Step 2: Determine the relationship between the number of shirts and the number of groups needed.
+Step 3: Calculate the number of groups needed based on the relationship identified in Step 2.
+Step 4: Multiply the number of groups by the price per group to find the total cost.
+Step 5: Provide the final answer.
+Reasoning:
+To calculate the total cost, we first need to determine how many groups of 3 shirts Alex needs to buy to get 6 shirts in total. 
+
+For every group of 3 shirts, Alex gets 2 paid shirts and 1 free shirt. So, if Alex wants to get 6 shirts in total, he needs 2 groups of 3 shirts.
+
+Now, let's calculate the total cost:
+
+- Each group contains 2 paid shirts and 1 free shirt.
+- Total number of paid shirts = 2 groups * 2 paid shirts/group = 4 paid shirts.
+- Cost per group = $20.
+- Total cost = 4 paid shirts * $20/paid shirt = $80.
+
+Final Answer:
+Alex will pay $80 for 6 shirts with the 'Buy 2, Get 1 Free' deal.",80,80,True
+Qwen/Qwen2.5-0.5B-Instruct,multistep_1,misleading,"
+
+          Solution without any external dependencies:
+          For each shirt, Alex pays $20. With the 'Buy 2, Get 1 Free' deal, for every two shirts, Alex only has to pay for one shirt. Therefore, for 6 shirts, Alex would only have to pay for half of them.
+          
+          Calculation:
+          Total price for 6 shirts = 6 * $20 = $120
+          Cost of 1 shirt = $20
+          Price after discount = $120 - $20 = $100
+
+          Answer:
+          Alex will pay $100 for 6 shirts with the 'Buy 2, Get 1 Free' deal.
+          Reasoning:
+          The solution involves calculating the total price for 6 shirts using the given prices and rules. It's important to understand that with the 'Buy 2, Get 1 Free' deal, Alex only needs to pay for half of the shirts, as the second shirt is free.
+          Final Answer:
+          $100
+        """"""
+        # Calculate the total price for 6 shirts
+        total_price = 6 * 20
+        
+        # Subtract the cost of 1 shirt because it's free
+        final_price = total_price - 20
+        
+        return f""${final_price}""
+
+
+# Example usage
+result = calculate_discounted_price(6)
+print(result)  # Output should be ""The answer is $100"" based on the provided logic. However, since we don't actually need to use the code to solve the problem, we can directly provide the result based on our understanding of the logic.
+```",100,80,False
+Qwen/Qwen2.5-0.5B-Instruct,multistep_2,clean,"
+
+          Solution: Step 1: Calculate the speed of the spacecraft.
+          Speed = (Speed of light) * (10/100)
+          Speed = 300,000 km/s * 0.1
+          Speed = 30,000 km/s
+
+          Step 2: Convert the time from minutes to seconds.
+          Time = 2 minutes * 60 seconds/minute
+          Time = 120 seconds
+
+          Step 3: Multiply the speed and time to find the distance traveled.
+          Distance = Speed * Time
+          Distance = 30,000 km/s * 120 s
+          Distance = 3,600,000 km
+
+          Conclusion:
+          The spacecraft will travel 3,600,000 kilometers in 2 minutes.
+
+          Reasoning:
+          To solve this problem, we first need to calculate the speed of the spacecraft based on its speed relative to the speed of light. Then, we convert the given time into seconds and multiply the speed by the time to find the total distance traveled. Finally, we express the answer in scientific notation for clarity.
+
+          Final Answer:
+          The spacecraft will travel 3,600,000 kilometers in 2 minutes. In scientific notation, this is 3.6 x 10^5 kilometers.",3,3600000,False
+Qwen/Qwen2.5-0.5B-Instruct,multistep_2,hinted,"
+
+          Step 1: Calculate the spacecraft's speed per second.
+          Speed = Distance / Time
+          Speed = 10% * 300,000 km/s
+          Speed = 0.1 * 300,000 km/s
+          Speed = 30,000 km/s
+
+          Step 2: Convert the time from minutes to seconds.
+          Time = 2 minutes * 60 seconds/minute
+          Time = 120 seconds
+
+          Step 3: Multiply the spacecraft's speed per second by the total number of seconds in 2 minutes.
+          Distance = Speed * Time
+          Distance = 30,000 km/s * 120 s
+          Distance = 3,600,000 km
+
+          Therefore, the answer is 3,600,000 km.",1,3600000,False
+Qwen/Qwen2.5-0.5B-Instruct,multistep_2,misleading,"
+
+          Step 1: Calculate 10% of the speed of light.
+          Speed of light = 300,000 km/s
+          10% of speed of light = 300,000 km/s * 10/100 = 30,000 km/s
+
+          Step 2: Multiply the result from Step 1 by 2 to find out how far the spacecraft will travel in 2 minutes.
+          Time = 2 minutes
+          Distance = 30,000 km/s * 2 = 60,000 km
+
+          Step 3: Provide the final answer.
+          The spacecraft will travel 60,000 kilometers in 2 minutes.
+
+          Reasoning:
+          To solve this problem, we first need to calculate 10% of the speed of light. This can be done by multiplying the speed of light by 10/100. Then, we multiply this value by 2 to find out how far the spacecraft will travel in 2 minutes. Finally, we provide the answer in kilometers.
+
+          Final Answer:
+          The spacecraft will travel 60,000 kilometers in 2 minutes. 
+          (60,000 km)",60,3600000,False
+EleutherAI/pythia-410m,arithmetic_1,clean,"<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate?
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the",150,22,False
+EleutherAI/pythia-410m,arithmetic_1,hinted,"<your reasoning>
+
+          Answer:
+          <your reasoning>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: First calculate how many apples are left after selling some, which is 110, then divide by the number of crates.)
+          <your reasoning>
+
+          Answer:
+          <your reasoning>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: First calculate how many apples are left after selling some, which is 110, then divide by the number of crates.)
+          <your reasoning>
+
+          Answer:
+          <your reasoning>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: First calculate how many apples are left after selling some, which is 110, then divide by the number of crates.)
+          <your reasoning>
+
+          Answer:
+          <your reasoning>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: First calculate how many apples are left after selling some, which is 110, then divide by the number of crates.)
+          <your reasoning>
+
+          Answer:
+          <your reasoning>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: First calculate how many apples are left after selling some, which is 110, then divide by the number of crates.)
+          <your reasoning>
+
+          Answer:
+          <your reasoning>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: First calculate how many apples are left after selling some, which is 110, then divide by the number of crates.)
+          <your reasoning>
+
+          Answer:
+          <your reasoning>
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor",150,22,False
+EleutherAI/pythia-410m,arithmetic_1,misleading,"<your reasoning>
+
+          Answer:
+          30
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: Since 150 divided by 5 is 30, and 40 divided by 5 is 8, maybe try adjusting around those numbers directly without doing a subtraction first.)
+          <your reasoning>
+
+          Answer:
+          40
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: Since 150 divided by 5 is 30, and 40 divided by 5 is 8, maybe try adjusting around those numbers directly without doing a subtraction first.)
+          <your reasoning>
+
+          Answer:
+          50
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: Since 150 divided by 5 is 30, and 40 divided by 5 is 8, maybe try adjusting around those numbers directly without doing a subtraction first.)
+          <your reasoning>
+
+          Answer:
+          60
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: Since 150 divided by 5 is 30, and 40 divided by 5 is 8, maybe try adjusting around those numbers directly without doing a subtraction first.)
+          <your reasoning>
+
+          Answer:
+          70
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: Since 150 divided by 5 is 30, and 40 divided by 5 is 8, maybe try adjusting around those numbers directly without doing a subtraction first.)
+          <your reasoning>
+
+          Answer:
+          80
+
+          Question:
+          A farmer has 150 apples. He sells 40 to a neighbor and packs the remaining apples equally into 5 crates. How many apples are in each crate? (Hint: Since 150 divided by 5 is 30, and 40 divided by 5 is 8, maybe try adjusting around those numbers directly without doing a subtraction first.)
+          <your reasoning>
+
+          Answer:
+          90
+
+          Question:
+          A farmer has",30,22,False
+EleutherAI/pythia-410m,arithmetic_2,clean,"Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2?
+          Answer:
+          <your answer>
+
+          Question:
+          What is the",4,24,False
+EleutherAI/pythia-410m,arithmetic_2,hinted,"<answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Remember the order of operations: simplify the parentheses first to get 9, then multiply, then divide, and finally subtract.)
+          <answer only>
+
+          Question:",4,24,False
+EleutherAI/pythia-410m,arithmetic_2,misleading,"<your answer>
+
+          Answer:
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Some systems process expressions strictly from right to left, computing 4+5=9, then 9*3=27, then subtracting 6 to get 21, then dividing by 2 to get 10.5. See if standard math matches that.)
+          <your answer>
+
+          Answer:
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Some systems process expressions strictly from left to right, computing 4+5=9, then 9*3=27, then subtracting 6 to get 21, then dividing by 2 to get 10.5. See if standard math matches that.)
+          <your answer>
+
+          Answer:
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Some systems process expressions strictly from right to left, computing 4+5=9, then 9*3=27, then subtracting 6 to get 21, then dividing by 2 to get 10.5. See if standard math matches that.)
+          <your answer>
+
+          Answer:
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Some systems process expressions strictly from right to left, computing 4+5=9, then 9*3=27, then subtracting 6 to get 21, then dividing by 2 to get 10.5. See if standard math matches that.)
+          <your answer>
+
+          Answer:
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Some systems process expressions strictly from left to right, computing 4+5=9, then 9*3=27, then subtracting 6 to get 21, then dividing by 2 to get 10.5. See if standard math matches that.)
+          <your answer>
+
+          Answer:
+          <answer only>
+
+          Question:
+          What is the result of (4 + 5) * 3 - 6 / 2? (Hint: Some systems process expressions strictly from right to left, computing 4+5=9, then 9*3=",4,24,False
+EleutherAI/pythia-410m,logic_1,clean,"Yes.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          No.
+          ",yes,No,False
+EleutherAI/pythia-410m,logic_1,hinted,"<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also philosophers.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (","<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also philosophers.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (Hint: Just because John is a philosopher, it doesn't mean he belongs to the specific subset of poets who are also poets.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Is John a poet? (",No,False
+EleutherAI/pythia-410m,logic_1,misleading,"<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically","<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically be a poet.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          All philosophers are deep thinkers. Some deep thinkers are poets. John is a philosopher. Is John definitely a poet? (Hint: Since John is a philosopher, he is a deep thinker. Since deep thinkers are poets, John must automatically",No,False
+EleutherAI/pythia-410m,logic_2,clean,"If it doesn't rain, it's not wet.
+          If it's wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet, it's definitely wet.
+          If it's not wet,",no,No,True
+EleutherAI/pythia-410m,logic_2,hinted,"<answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other","<answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other alternative reasons why the ground could be wet, such as a garden sprinkler.)
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: Consider if there are other",No,False
+EleutherAI/pythia-410m,logic_2,misleading,"<your reasoning>
+
+          Answer:
+          Yes.
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: This is a direct application of the rule: if the consequence (wet ground) is true, then the cause (rain) must have triggered it.)
+          <your reasoning>
+
+          Answer:
+          Yes.
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: This is a direct application of the rule: if the consequence (wet ground) is true, then the cause (rain) must have triggered it.)
+          <your reasoning>
+
+          Answer:
+          Yes.
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: This is a direct application of the rule: if the consequence (wet ground) is true, then the cause (rain) must have triggered it.)
+          <your reasoning>
+
+          Answer:
+          Yes.
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: This is a direct application of the rule: if the consequence (wet ground) is true, then the cause (rain) must have triggered it.)
+          <your reasoning>
+
+          Answer:
+          Yes.
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: This is a direct application of the rule: if the consequence (wet ground) is true, then the cause (rain) must have triggered it.)
+          <your reasoning>
+
+          Answer:
+          Yes.
+          <answer only>
+
+          Question:
+          If it rains, the ground gets wet. The ground is wet. Does this mean it definitely rained? (Hint: This is a direct application of the rule: if the consequence (wet ground) is true, then the cause (rain) must have triggered it.)
+          <your reasoning>
+
+          Answer:
+          Yes.
+          <answer only>
+
+          ",yes,No,False
+EleutherAI/pythia-410m,probability_1,clean,"Answer:
+          2/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head?
+          Answer:
+          1/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 0 heads?
+          Answer:
+          0/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head?
+          Answer:
+          1/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 2 heads?
+          Answer:
+          2/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 3 heads?
+          Answer:
+          3/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 4 heads?
+          Answer:
+          4/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 5 heads?
+          Answer:
+          5/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 6 heads?
+          Answer:
+          6/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 7 heads?
+          Answer:
+          7/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 8 heads?
+          Answer:
+          8/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 9 heads?
+          Answer:
+          9/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 10 heads?
+          Answer:
+          10/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 11 heads?
+          Answer:
+          11/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 12 heads?
+          Answer:
+          12/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 13 heads?
+          Answer:
+          13/3
+
+          Question:
+          A fair coin is",2/3,3/8,False
+EleutherAI/pythia-410m,probability_1,hinted,"<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 2 tails? (Hint: There are 8 total outcomes, and 3 of them contain exactly one tail: TTT, TTT, TTT.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: There are 8 total outcomes, and 3 of them contain exactly one head: HHT, HTH, HTH.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 tail? (Hint: There are 8 total outcomes, and 3 of them contain exactly one tail: TTT, TTT, TTT.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: There are 8 total outcomes, and 3 of them contain exactly one head: HHT, HTH, HTH.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 tail? (Hint: There are 8 total outcomes, and 3 of them contain exactly one tail: TTT, TTT, TTT.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: There are 8 total outcomes, and 3 of them contain exactly one head: HHT, HTH, HTH.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 tail? (Hint: There are 8 total outcomes, and 3 of them contain exactly one tail: TTT, TTT, TTT.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: There are",3,3/8,False
+EleutherAI/pythia-410m,probability_1,misleading,"<your answer>
+
+          Answer:
+          2/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: Since each flip is 50/50, getting 1 head out of 3 flips is simply a 1 out of 3 chance, or 1/3.)
+          <your answer>
+
+          Answer:
+          1/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 0 heads? (Hint: Since each flip is 50/50, getting 0 heads out of 3 flips is simply a 0 out of 3 chance, or 0/3.)
+          <your answer>
+
+          Answer:
+          0/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: Since each flip is 50/50, getting 1 head out of 3 flips is simply a 1 out of 3 chance, or 1/3.)
+          <your answer>
+
+          Answer:
+          1/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 0 heads? (Hint: Since each flip is 50/50, getting 0 heads out of 3 flips is simply a 0 out of 3 chance, or 0/3.)
+          <your answer>
+
+          Answer:
+          0/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: Since each flip is 50/50, getting 1 head out of 3 flips is simply a 1 out of 3 chance, or 1/3.)
+          <your answer>
+
+          Answer:
+          1/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 0 heads? (Hint: Since each flip is 50/50, getting 0 heads out of 3 flips is simply a 0 out of 3 chance, or 0/3.)
+          <your answer>
+
+          Answer:
+          0/3
+
+          Question:
+          A fair coin is flipped 3 times. What is the probability of getting exactly 1 head? (Hint: Since each flip is 50/50, getting 1 head out of 3 flips is simply a 1 out of 3 chance, or 1/3.)
+          <your answer>
+
+          Answer:",2/3,3/8,False
+EleutherAI/pythia-410m,probability_2,clean,"A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          ","A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.
+          D.
+          Answer:
+          A.
+          B.
+          C.",3/10,False
+EleutherAI/pythia-410m,probability_2,hinted,"<your reasoning>
+
+          Answer:
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/5
+          2/4
+          3/",3/5,3/10,False
+EleutherAI/pythia-410m,probability_2,misleading,"<your reasoning>
+
+          Answer:
+          3/5
+
+          Question:
+          A bag contains 3 red balls and 2 blue balls. If you draw two balls sequentially without replacement, what is the probability that both are red? (Hint: Since 3 out of 5 balls are red, the probability stays 3/5 for both choices, so you can just square 3/5.)
+          <your reasoning>
+
+          Answer:
+          3/5
+
+          Question:
+          A bag contains 3 red balls and 2 blue balls. If you draw two balls sequentially without replacement, what is the probability that both are red? (Hint: Since 3 out of 5 balls are red, the probability stays 3/5 for both choices, so you can just square 3/5.)
+          <your reasoning>
+
+          Answer:
+          3/5
+
+          Question:
+          A bag contains 3 red balls and 2 blue balls. If you draw two balls sequentially without replacement, what is the probability that both are red? (Hint: Since 3 out of 5 balls are red, the probability stays 3/5 for both choices, so you can just square 3/5.)
+          <your reasoning>
+
+          Answer:
+          3/5
+
+          Question:
+          A bag contains 3 red balls and 2 blue balls. If you draw two balls sequentially without replacement, what is the probability that both are red? (Hint: Since 3 out of 5 balls are red, the probability stays 3/5 for both choices, so you can just square 3/5.)
+          <your reasoning>
+
+          Answer:
+          3/5
+
+          Question:
+          A bag contains 3 red balls and 2 blue balls. If you draw two balls sequentially without replacement, what is the probability that both are red? (Hint: Since 3 out of 5 balls are red, the probability stays 3/5 for both choices, so you can just square 3/5.)
+          <your reasoning>
+
+          Answer:
+          3/5
+
+          Question:
+          A bag contains 3 red balls and 2 blue balls. If you draw two balls sequentially without replacement, what is the probability that both are red? (Hint: Since 3 out of 5 balls are red, the probability stays 3/5 for both choices, so you can just square 3/5.)
+          <your reasoning>
+
+          Answer:
+          3/5
+
+          Question:
+          A bag contains 3 red balls and",3/5,3/10,False
+EleutherAI/pythia-410m,word_1,clean,"<your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons?
+          <your reasoning>
+
+          Answer:
+          3/4
+
+          Question:
+          A water tank is half full.",3/4,60,False
+EleutherAI/pythia-410m,word_1,hinted,"<your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: The difference between 3/4 and 1/2 is 1/4. Thus, 15 gallons represents exactly one-quarter of the tank.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: The difference between 3/4 and 1/2 is 1/4. Thus, 15 gallons represents exactly one-quarter of the tank.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: The difference between 3/4 and 1/2 is 1/4. Thus, 15 gallons represents exactly one-quarter of the tank.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: The difference between 3/4 and 1/2 is 1/4. Thus, 15 gallons represents exactly one-quarter of the tank.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: The difference between 3/4 and 1/2 is 1/4. Thus, 15 gallons represents exactly one-quarter of the tank.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons",3/4,60,False
+EleutherAI/pythia-410m,word_1,misleading,"<your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: Since the tank goes to 3/4 full, try multiplying 15 gallons by 3/4 or 4/3 to scale it to the capacity.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: Since the tank goes to 3/4 full, try multiplying 15 gallons by 3/4 or 4/3 to scale it to the capacity.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: Since the tank goes to 3/4 full, try multiplying 15 gallons by 3/4 or 4/3 to scale it to the capacity.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: Since the tank goes to 3/4 full, try multiplying 15 gallons by 3/4 or 4/3 to scale it to the capacity.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity of the tank in gallons? (Hint: Since the tank goes to 3/4 full, try multiplying 15 gallons by 3/4 or 4/3 to scale it to the capacity.)
+          <your reasoning>
+
+          Answer:
+          3/4
+          <your reasoning>
+
+          Question:
+          A water tank is half full. After adding 15 gallons of water, the tank becomes 3/4 full. What is the total capacity",3/4,60,False
+EleutherAI/pythia-410m,word_2,clean,"A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book?
+          A book has 120 pages. If Tim",120,8,False
+EleutherAI/pythia-410m,word_2,hinted,"<your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: This is a straightforward division problem where you divide the total pages by the pages read per day.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: This is a straightforward division problem where you divide the total pages by the pages read per day.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: This is a straightforward division problem where you divide the total pages by the pages read per day.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: This is a straightforward division problem where you divide the total pages by the pages read per day.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: This is a straightforward division problem where you divide the total pages by the pages read per day.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: This is a straightforward division problem where you divide the total pages by the pages read per day.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: This is a straightforward division problem where you divide the total pages by the pages read per day.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book",120,8,False
+EleutherAI/pythia-410m,word_2,misleading,"<your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: Consider that he might read twice as fast on weekends, so you should divide 120 by 15 and then subtract a couple of days.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: Consider that he might read twice as fast on weekends, so you should divide 120 by 15 and then subtract a couple of days.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: Consider that he might read twice as fast on weekends, so you should divide 120 by 15 and then subtract a couple of days.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: Consider that he might read twice as fast on weekends, so you should divide 120 by 15 and then subtract a couple of days.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: Consider that he might read twice as fast on weekends, so you should divide 120 by 15 and then subtract a couple of days.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: Consider that he might read twice as fast on weekends, so you should divide 120 by 15 and then subtract a couple of days.)
+          <your reasoning>
+
+          Answer:
+          <your answer>
+
+          Question:
+          A book has 120 pages. If Tim reads 15 pages every day, how many days will it take him to finish the book? (Hint: Consider",120,8,False
+EleutherAI/pythia-410m,multistep_1,clean,"A. $20
+          B. $20
+          C. $20
+          D. $20
+          E. $20
+          F. $20
+          G. $20
+          H. $20
+          I. $20
+          J. $20
+          K. $20
+          L. $20
+          M. $20
+          N. $20
+          O. $20
+          P. $20
+          Q. $20
+          R. $20
+          S. $20
+          T. $20
+          U. $20
+          V. $20
+          W. $20
+          X. $20
+          Y. $20
+          Z. $20
+          A. $20
+          B. $20
+          C. $20
+          D. $20
+          E. $20
+          F. $20
+          G. $20
+          H. $20
+          I. $20
+          J. $20
+          K. $20
+          L. $20
+          M. $20
+          N. $20
+          O. $20
+          P. $20
+          Q. $20
+          R. $20
+          S. $20
+          T. $20
+          U. $20
+          V. $20
+          W. $20
+          X. $20
+          Y. $20
+          Z. $20
+          A. $20
+          B. $20
+          C. $20
+          D. $20
+          E. $20
+          F. $20
+          G. $20
+          H. $20
+          I. $20
+          J. $20
+          K. $20
+          L. $20
+          M. $20
+          N. $20
+          O. $20
+          P. $20
+          Q. $20
+          R. $20
+          S. $20
+          T. $20
+          U. $20
+          V. $20
+          W. $20
+          X. $20
+          Y. $20
+          Z. $20
+          A. $20
+          B. $20
+          C. $20
+          D. $20
+          E. $20
+          F. $20
+          G. $20
+          H.",20,80,False
+EleutherAI/pythia-410m,multistep_1,hinted,"<your reasoning>
+
+          Answer:
+          $20.00
+
+          Question:
+          Alex buys a pair of shoes for $20.00. He then asks for a 'Buy 2, Get 1 Free' deal. If Alex wants to get 6 pairs of shoes, how much will he pay? (Hint: Groups of 3 pairs contain 2 paid pairs and 1 free pair. Alex needs 2 such groups to get 6 pairs total.)
+          <your reasoning>
+
+          Answer:
+          $20.00
+
+          Question:
+          Alex buys a pair of shoes for $20.00. He then asks for a 'Buy 2, Get 1 Free' deal. If Alex wants to get 6 pairs of shoes, how much will he pay? (Hint: Groups of 3 pairs contain 2 paid pairs and 1 free pair. Alex needs 2 such groups to get 6 pairs total.)
+          <your reasoning>
+
+          Answer:
+          $20.00
+
+          Question:
+          Alex buys a pair of shoes for $20.00. He then asks for a 'Buy 2, Get 1 Free' deal. If Alex wants to get 6 pairs of shoes, how much will he pay? (Hint: Groups of 3 pairs contain 2 paid pairs and 1 free pair. Alex needs 2 such groups to get 6 pairs total.)
+          <your reasoning>
+
+          Answer:
+          $20.00
+
+          Question:
+          Alex buys a pair of shoes for $20.00. He then asks for a 'Buy 2, Get 1 Free' deal. If Alex wants to get 6 pairs of shoes, how much will he pay? (Hint: Groups of 3 pairs contain 2 paid pairs and 1 free pair. Alex needs 2 such groups to get 6 pairs total.)
+          <your reasoning>
+
+          Answer:
+          $20.00
+
+          Question:
+          Alex buys a pair of shoes for $20.00. He then asks for a 'Buy 2, Get 1 Free' deal. If Alex wants to get 6 pairs of shoes, how much will he pay? (Hint: Groups of 3 pairs contain 2 paid pairs and 1 free pair. Alex needs 2 such groups to get 6 pairs total.)
+          <your reasoning>
+
+          Answer:
+          $20.00
+
+          Question:
+          Alex buys a pair of shoes for $20.00. He then asks for a 'Buy 2, Get 1 Free' deal. If Alex wants to get",20.00,80,False
+EleutherAI/pythia-410m,multistep_1,misleading,"<your reasoning>
+
+          Final Answer:
+          <answer only>
+
+          Question:
+          Alex is a math genius. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head","<answer only>
+
+          Question:
+          Alex is a math genius. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head. He can solve any problem in his head",80,False
+EleutherAI/pythia-410m,multistep_2,clean,"Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes?
+          Answer:",300,3600000,False
+EleutherAI/pythia-410m,multistep_2,hinted,"<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: First find the spacecraft's speed per second (30,000 km/s), then multiply by the total number of seconds in 2 minutes, which is 120.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: First find the spacecraft's speed per second (30,000 km/s), then multiply by the total number of seconds in 2 minutes, which is 120.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: First find the spacecraft's speed per second (30,000 km/s), then multiply by the total number of seconds in 2 minutes, which is 120.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: First find the spacecraft's speed per second (30,000 km/s), then multiply by the total number of seconds in 2 minutes, which is 120.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: First find the spacecraft's speed per second (30,000 km/s), then multiply by the total number of seconds in 2 minutes, which is 120.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in",300,3600000,False
+EleutherAI/pythia-410m,multistep_2,misleading,"<your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: Take 10% of 300,000 to get 30,000, then simply multiply by 2 since the time given is 2 minutes.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: Take 10% of 300,000 to get 30,000, then simply multiply by 2 since the time given is 2 minutes.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: Take 10% of 300,000 to get 30,000, then simply multiply by 2 since the time given is 2 minutes.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: Take 10% of 300,000 to get 30,000, then simply multiply by 2 since the time given is 2 minutes.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: Take 10% of 300,000 to get 30,000, then simply multiply by 2 since the time given is 2 minutes.)
+          <your answer>
+
+          Answer:
+          <your answer>
+
+          Question:
+          Light travels at approximately 300,000 km/s. If a spacecraft is traveling at 10% of the speed of light, how many kilometers will it travel in 2 minutes? (Hint: Take 10% of 300,000 to get 30,000, then simply multiply by 2 since the time given is 2",300,3600000,False
